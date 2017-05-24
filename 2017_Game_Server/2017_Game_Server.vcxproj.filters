@@ -1,0 +1,144 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\default">
+      <UniqueIdentifier>{07b9e05e-9edb-4ab5-8940-26c4a81b90c2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\MyNamespace">
+      <UniqueIdentifier>{f72df3f6-3421-43b4-8b3f-8e5ad52a256f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object">
+      <UniqueIdentifier>{1daf034a-d8cb-4303-88dd-35d614f0fad3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\NPC">
+      <UniqueIdentifier>{6966e47d-b54f-4076-b40b-2c07bc9ea176}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Object\Player">
+      <UniqueIdentifier>{a17ee230-b189-4bfc-a21a-be77a0a8155a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Server">
+      <UniqueIdentifier>{2fb4c535-c90f-48bc-b748-3216f26db65b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SyncObject">
+      <UniqueIdentifier>{0f751e4c-c980-4afc-ac0e-fbdbe7ec8941}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SyncObject\Sector">
+      <UniqueIdentifier>{92337f69-e695-492a-9451-ee38ac44cd68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SyncObject\Timer">
+      <UniqueIdentifier>{8be8ec92-135d-477b-9078-71bb2f99679c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\SyncObject\ViewList">
+      <UniqueIdentifier>{7b9b32d8-4a52-4732-9817-4dfa7e5a61b4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\ThreadFunctions">
+      <UniqueIdentifier>{d60e579c-9909-4eda-8989-79018db5cdd4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\Zone">
+      <UniqueIdentifier>{f2d3759c-4953-4eee-b12b-305650d6e1b0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="2017_Game_Server.cpp">
+      <Filter>소스 파일\default</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\default</Filter>
+    </ClCompile>
+    <ClCompile Include="MyNamespace.cpp">
+      <Filter>소스 파일\MyNamespace</Filter>
+    </ClCompile>
+    <ClCompile Include="Object.cpp">
+      <Filter>소스 파일\Object</Filter>
+    </ClCompile>
+    <ClCompile Include="NPC.cpp">
+      <Filter>소스 파일\Object\NPC</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Sector.cpp">
+      <Filter>소스 파일\SyncObject\Sector</Filter>
+    </ClCompile>
+    <ClCompile Include="SyncObject.cpp">
+      <Filter>소스 파일\SyncObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>소스 파일\SyncObject\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="ViewList.cpp">
+      <Filter>소스 파일\SyncObject\ViewList</Filter>
+    </ClCompile>
+    <ClCompile Include="Zone.cpp">
+      <Filter>소스 파일\Zone</Filter>
+    </ClCompile>
+    <ClCompile Include="ThreadFunctions.cpp">
+      <Filter>소스 파일\ThreadFunctions</Filter>
+    </ClCompile>
+    <ClCompile Include="Server.cpp">
+      <Filter>소스 파일\Server</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\default</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\default</Filter>
+    </ClInclude>
+    <ClInclude Include="MyNamespace.h">
+      <Filter>소스 파일\MyNamespace</Filter>
+    </ClInclude>
+    <ClInclude Include="MyHeader.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlapped_Ex.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Protocol.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Object.h">
+      <Filter>소스 파일\Object</Filter>
+    </ClInclude>
+    <ClInclude Include="NPC.h">
+      <Filter>소스 파일\Object\NPC</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\Object\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Sector.h">
+      <Filter>소스 파일\SyncObject\Sector</Filter>
+    </ClInclude>
+    <ClInclude Include="SyncObject.h">
+      <Filter>소스 파일\SyncObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Zone.h">
+      <Filter>소스 파일\Zone</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>소스 파일\SyncObject\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="ViewList.h">
+      <Filter>소스 파일\SyncObject\ViewList</Filter>
+    </ClInclude>
+    <ClInclude Include="ThreadFunctions.h">
+      <Filter>소스 파일\ThreadFunctions</Filter>
+    </ClInclude>
+    <ClInclude Include="Server.h">
+      <Filter>소스 파일\Server</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
